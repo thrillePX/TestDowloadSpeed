@@ -1,0 +1,7 @@
+这是一个测试下载速率的脚本，可以传入下载的url同时回显生成csv报告，其中包括下载开始,下载结束,时延(ms),速率(MB/s),重传,乱序数据。
+使用办法：
+./curldownload.sh -i ens192 -a x.x.x.x -s test.iso >> /curldownload.log
+参数解释:
+-i 下载的网卡名称
+-a 测试下载的地址
+-s 测试下载的文件
